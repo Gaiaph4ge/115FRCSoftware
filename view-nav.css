@@ -1,0 +1,10 @@
+/* Button-driven academy navigation: only one workspace is visible at a time. */
+.app-view[hidden] { display: none !important; }
+.nav-view { border: 0; background: transparent; cursor: pointer; }
+.nav .brand { padding: 0; }
+.nav nav .nav-view { color: #565168; font: 700 13px Manrope, sans-serif; }
+.nav nav .nav-view:hover, .nav nav .nav-view.active { color: #5637bb; }
+.resource-links button { background: #fff; border: 1px solid #e5e1ec; border-radius: 10px; color: #19152d; cursor: pointer; display: flex; align-items: center; justify-content: space-between; padding: 15px 17px; text-align: left; transition: .2s; font-family: inherit; }
+.resource-links button:hover { border-color: #5637bb; transform: translateX(5px); }
+.footer-home { border: 0; background: transparent; color: #c3bdd2; cursor: pointer; font: 11px Manrope, sans-serif; }
+.footer-home:hover { color: #f5b93f; }
